@@ -1,0 +1,35 @@
+<div class="container">
+    <list class="list-container" scrollvibrate="true" itemcenter="true" itemscale="true" scrollbar="auto" chainanimation="true">
+        <list-item class="text-item" clickeffect="false">
+            <text class="title">编辑闹钟</text>
+        </list-item>
+        <list-item class="item" @click="setTime">
+            <div class="item background">
+                <image src="/common/alwayson.png" class="image"></image>
+                <div class="text-container">
+                    <text class="whenstart-text">设置闹钟时间</text>
+                </div>
+                <image src="/common/right.png" class="right"></image>
+            </div>
+        </list-item>
+        <list-item class="item" @click="setRepeat">
+            <div class="item background">
+                <image src="/common/start.png" class="image"></image>
+                <div class="text-container">
+                    <text class="whenstart-text">设置重复方式</text>
+                </div>
+                <image src="/common/right.png" class="right"></image>
+            </div>
+        </list-item>
+        <list-item class="item" @click="deleteAlarm">
+            <div class="item background">
+                <image src="/common/settings.png" class="image"></image>
+                <div class="text-container">
+                    <text class="whenstart-text">删除闹钟</text>
+                </div>
+                <image src="/common/right.png" class="right"></image>
+            </div>
+        </list-item>
+        <list-item class="item" clickeffect="false"></list-item>
+    </list>
+</div>

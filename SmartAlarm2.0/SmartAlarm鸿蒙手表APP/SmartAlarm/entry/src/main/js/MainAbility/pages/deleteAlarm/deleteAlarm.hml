@@ -1,0 +1,9 @@
+<div class="container">
+    <text class="title">
+        是否删除此闹钟
+    </text>
+    <div class="container-btn">
+        <input type="button" value="×" class="btnCancel" onclick="cancel"></input>
+        <input type="button" value="√" class="btnConfirm" onclick="confirm"></input>
+    </div>
+</div>

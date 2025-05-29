@@ -1,0 +1,17 @@
+<div class="container">
+    <text class="text-repeat">重复</text>
+    <div class="container-repeat">
+        <div class="container-up">
+            <input type="button" class="btnWeek" value="日" onclick="changeWeekSelected(0)"/>
+            <input type="button" class="btnWeek" value="一" onclick="changeWeekSelected(1)"/>
+            <input type="button" class="btnWeek" value="二" onclick="changeWeekSelected(2)"/>
+        </div>
+        <div class="container-down">
+            <input type="button" class="btnWeek" value="三" onclick="changeWeekSelected(3)"/>
+            <input type="button" class="btnWeek" value="四" onclick="changeWeekSelected(4)"/>
+            <input type="button" class="btnWeek" value="五" onclick="changeWeekSelected(5)"/>
+            <input type="button" class="btnWeek" value="六" onclick="changeWeekSelected(6)"/>
+        </div>
+    </div>
+    <input type="button" class="btnConfirm" value="确认" onclick="confirm"/>
+</div>

@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+}
+.text-repeat{
+    margin-top: 0px;
+}
+
+.btnWeek{
+    height:80px;
+    width:80px;
+    border-radius: 40px;
+    background-color: rgb(50, 50, 50);
+    color:white;
+}
+.btnWeek:active{
+    background-color: lightskyblue;
+}
+
+.container-repeat{
+    width:100%;
+    height:300px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-up{
+    flex-direction: row;
+    width:100%;
+    height:100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-down{
+    flex-direction: row;
+    width:100%;
+    height:100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnConfirm{
+    width:150px;
+    height:60px;
+    background-color: deepskyblue;
+}

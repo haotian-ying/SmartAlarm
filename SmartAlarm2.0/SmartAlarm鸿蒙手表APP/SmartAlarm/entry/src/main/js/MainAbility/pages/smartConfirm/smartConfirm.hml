@@ -1,0 +1,9 @@
+<div class="container">
+    <text class="title">
+        是否开启智能唤醒
+    </text>
+    <div class="container-btn">
+        <input type="button" value="×" class="btnCancel" onclick="cancel"></input>
+        <input type="button" value="√" class="btnConfirm" onclick="confirm"></input>
+    </div>
+</div>

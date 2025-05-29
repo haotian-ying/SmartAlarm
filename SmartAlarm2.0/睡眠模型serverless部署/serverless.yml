@@ -1,0 +1,25 @@
+service: sleep-staging-service
+
+frameworkVersion: '4'
+
+provider:
+  name: aws
+  runtime: python3.11
+  region: us-east-1
+  memorySize: 512
+  timeout: 60
+
+package:
+  individually: true
+  patterns:
+    - '!./**'
+    - './handler2.py'
+    - './wrn-gru-mesa/**'
+
+functions:
+  sleepStagePredict:
+    handler: handler2.predict
+    #  events:
+    #    - httpApi:
+    #        path: /predict
+    #        method: post

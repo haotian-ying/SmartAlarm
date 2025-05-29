@@ -1,0 +1,6 @@
+<div class="container">
+    <text class="title">
+        Smart Alarm
+    </text>
+    <input type="button" class="btn" value="启 动" onclick="btnClick"></input>
+</div>

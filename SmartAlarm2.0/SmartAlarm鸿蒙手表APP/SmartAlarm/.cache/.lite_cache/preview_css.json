@@ -1,0 +1,12 @@
+{
+  "entry": {
+    "D:\\HarmonyProject\\SmartAlarm\\entry\\src\\main\\js\\MainAbility\\pages\\index\\index.css": true,
+    "D:\\HarmonyProject\\SmartAlarm\\entry\\src\\main\\js\\MainAbility\\pages\\time\\time.css": true,
+    "D:\\HarmonyProject\\SmartAlarm\\entry\\src\\main\\js\\MainAbility\\pages\\editAlarm\\editAlarm.css": true,
+    "D:\\HarmonyProject\\SmartAlarm\\entry\\src\\main\\js\\MainAbility\\pages\\timeArrive\\timeArrive.css": true,
+    "D:\\HarmonyProject\\SmartAlarm\\entry\\src\\main\\js\\MainAbility\\pages\\editRepeat\\editRepeat.css": true,
+    "D:\\HarmonyProject\\SmartAlarm\\entry\\src\\main\\js\\MainAbility\\pages\\deleteAlarm\\deleteAlarm.css": true,
+    "D:\\HarmonyProject\\SmartAlarm\\entry\\src\\main\\js\\MainAbility\\pages\\editNavigation\\editNavigation.css": true,
+    "D:\\HarmonyProject\\SmartAlarm\\entry\\src\\main\\js\\MainAbility\\pages\\smartConfirm\\smartConfirm.css": true
+  }
+}

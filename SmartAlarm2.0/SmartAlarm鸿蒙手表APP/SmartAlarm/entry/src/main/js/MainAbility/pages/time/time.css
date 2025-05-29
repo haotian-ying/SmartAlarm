@@ -1,0 +1,158 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.list-container{
+    height:100%;
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+.item {
+    width: 100%;
+    height: 150px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.background {
+    background-color: rgb(36, 36, 36);
+    border-radius: 70px;
+    width: 90%;
+    height: 140px;
+}
+
+.itemLeft{
+    width:60%;
+    height: 120px;
+    margin-left: 20px;
+    flex-direction: column;
+}
+
+.textTime{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 38px;
+    color:darkgrey;
+}
+
+.textRepeat{
+    font-size: 14px;
+    text-align: center;
+    color:darkgrey;
+}
+
+.itemRight{
+    width: 40%;
+    height: 89px;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-button{
+    font-size: 38px;
+    letter-spacing: 1px;
+    margin-top: 300px;
+    width: 80px;
+    height:80px;
+    border-radius: 40px;
+    background-color: deepskyblue;
+}
+
+.tips-container {
+    width: 100%;
+    height: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    background-color: #bf000000;
+}
+
+.tips {
+    font-size: 30px;
+    margin-top: 110px;
+    letter-spacing: 1px;
+}
+
+.gesture {
+    width: 128px;
+    height: 128px;
+    margin-left: 300px;
+    margin-top: 50px;
+    animation-name: move;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+
+.ok {
+    font-size: 38px;
+    letter-spacing: 1px;
+    margin-top: 40px;
+    width: 200px;
+    color: deepskyblue;
+    background-color: #00FFFFFF;
+    border-radius: 0px;
+}
+
+@keyframes move {
+    from {
+        transform: translateX(0px);
+    }
+
+    to {
+        transform: translateX(-300px);
+    }
+}
+
+.text {
+    font-size: 38px;
+    margin-top: 115px;
+}
+
+.sleep-container{
+    width: 100%;
+    height: 85px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+.progress {
+    width: 100%;
+    height: 100%;
+    background-color: #3e00bfff;
+    color: deepskyblue;
+    start-angle: 0deg;
+    total-angle: 360deg;
+    stroke-width: 35px;
+}
+
+.timer{
+    width: 100%;
+    height: 98px;
+    text-align: center;
+    font-size: 38px;
+    letter-spacing: 2px;
+    color:white;
+}
+
+.percent-text {
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    color: gray;
+
+}
+
+

@@ -1,0 +1,93 @@
+/* xxx.css */
+.container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.set-text{
+    margin-top: 10px;
+}
+
+.time-container{
+    width:100%;
+    height:300px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.day-container{
+    height: 76px;
+    width: 120px;
+    margin-right:20px;
+    margin-left: 0px;
+    flex-direction: row;
+    align-items: center;
+    color: dimgrey;
+    selected-color: white;
+    align-items: center;
+    background-color:  #2e2f30;
+    border-radius: 20px;
+}
+
+.day-picker{
+    height: 76px;
+    width: 120px;
+    align-items: center;
+    justify-content: center;
+    color: gray;
+}
+
+.hour-container{
+    height: 220px;
+    width: 100px;
+    margin-right:15px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: dimgrey;
+    selected-color: white;
+    background-color:  #2e2f30;
+    border-radius: 20px;
+}
+
+.hour-picker{
+    height:178px;
+    width: 100px;
+    align-items:flex-start;
+    justify-content: center;
+    color: gray;
+}
+
+.minute-container{
+    height: 220px;
+    width: 100px;
+    align-items: center;
+    color: dimgrey;
+    selected-color: white;
+    align-items: center;
+    background-color:  #2e2f30;
+    border-radius: 20px;
+}
+
+.minute-picker{
+    height: 178px;
+    width: 100px;
+    align-items:flex-start;
+    justify-content: center;
+    color: gray;
+}
+
+.button{
+    background-color:deepskyblue;
+}
+.time-text{
+    font-size: 38px;
+    margin-right: 15px;
+}
+
+
+

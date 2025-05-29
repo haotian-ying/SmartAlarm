@@ -1,0 +1,25 @@
+<!-- xxx.hml -->
+<div class="container">
+    <text class="set-text">设置时间</text>
+    <div class="time-container">
+        <div class="day-container">
+            <picker-view class="day-picker" type="text" range="{{ dayarray }}" selected="{{dayselect}}"  focusable="true" @change="dayChange"></picker-view>
+        </div>
+        <div class="hour-container">
+            <picker-view class="hour-picker" type="text" range="{{hourarray}}" selected="{{hourselect}}" focusable="true" @change="hourChange"></picker-view>
+        </div>
+        <text class="time-text">:</text>
+        <div class="minute-container">
+            <picker-view class="minute-picker" type="text" range="{{minutearray}}" selected="{{minuteselect}}" focusable="true" @change="minuteChange"></picker-view>
+        </div>
+    <!--
+        <picker-view class="time-picker" type="time" selected="{{defaultTime}}" hours="12" @change="handleChange"></picker-view>
+        <picker-view class="day-picker" type="text" range="{{ dayarray }}" selected="{{dayselect}}"  focusable="true" @change="dayChange"></picker-view>
+        <picker-view class="hour-picker" type="text" range="{{hourarray}}" selected="{{hourselect}}" focusable="true" @change="hourChange"></picker-view>
+        <picker-view class="minute-picker" type="text" range="{{minutearray}}" selected="{{minuteselect}}" focusable="true" @change="minuteChange"></picker-view>
+     -->
+    </div>
+    <input class="button" type="button" @click="confirmTime" value="√"></input>
+</div>
+
+

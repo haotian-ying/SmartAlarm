@@ -1,0 +1,8 @@
+<div class="container">
+    <text class="alarm">闹钟</text>
+    <text class="textTime">{{time}}</text>
+    <div class="container-btn">
+        <input type="button" value="×" class="btnCancel" onclick="cancel"></input>
+        <input type="button" value="√" class="btnConfirm" onclick="postpone"></input>
+    </div>
+</div>
