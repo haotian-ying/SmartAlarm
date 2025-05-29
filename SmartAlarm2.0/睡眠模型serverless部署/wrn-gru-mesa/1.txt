@@ -1,1 +1,0 @@
-serverless invoke local -f sleepStagePredict -p realistic_8h_sleep_v2.json
